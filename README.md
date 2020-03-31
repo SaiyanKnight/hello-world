@@ -32,3 +32,4 @@ Traceback (most recent call last):
     h_tm1 = cell.forward(x_t, h_tm1)
   File "1.2.py", line 31, in forward
     wx = self.act(h_tm1 * self.u + x_t @ self.w + self.b)
+  RuntimeError: Expected object of device type cuda but got device type cpu for argument #2 'mat2' in call to _th_mm
